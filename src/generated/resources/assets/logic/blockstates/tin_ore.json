@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "logic:block/tin_ore"
+    }
+  }
+}

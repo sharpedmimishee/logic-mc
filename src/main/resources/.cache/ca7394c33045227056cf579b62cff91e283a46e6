@@ -1,0 +1,7 @@
+// 1.21.1	2024-10-05T15:56:40.4314617	Block States: logic
+04263f38f8c29a43c346c6994ef59f0ba4584a3c assets/logic/blockstates/deepslate_tin_ore.json
+6fb38c14b20ac06b250d911d5a2a7276e6801ccc assets/logic/blockstates/tin_ore.json
+3e301054545afe92a5e3dade2eaba42622f991f3 assets/logic/models/block/deepslate_tin_ore.json
+62f91812f80d288ed0408d20f0bcfb73cc047685 assets/logic/models/block/tin_ore.json
+4ea256d57992684182adf40f1b9e92ae878bf675 assets/logic/models/item/deepslate_tin_ore.json
+5f207a4830200af4a0b04392f027d1754fb88c36 assets/logic/models/item/tin_ore.json
