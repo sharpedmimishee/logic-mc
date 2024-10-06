@@ -32,6 +32,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
 import sharped.mimishee.logic.Blocks.BlocksRegister;
+import sharped.mimishee.logic.Items.ItemsRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Logic.MODID)
@@ -49,6 +50,7 @@ public class Logic {
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BlocksRegister.register(modEventBus);
+        ItemsRegister.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (Logic) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.

@@ -1,5 +1,6 @@
 package sharped.mimishee.logic.providers;
 
+import com.mojang.logging.LogUtils;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
@@ -19,6 +20,7 @@ public class blockstates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        LogUtils.getLogger().info("PLSPLSPLS");
         SimpleBlockWithItem(BlocksRegister.TIN_ORE);
         SimpleBlockWithItem(BlocksRegister.DEEPSLATE_TIN_ORE);
     }

@@ -36,7 +36,7 @@ public class BlocksRegister {
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> deferredBlock = BLOCKS.register(name, block);
         ItemsRegister.ITEMS.register(name,
-                () -> new BlockItem(block.get(), new Item.Properties()));
+                () -> new BlockItem(deferredBlock.get(), new Item.Properties()));
         return deferredBlock;
     }
 
