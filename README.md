@@ -1,3 +1,7 @@
+
+> [!CAUTION]
+> # YOU MUST READ LICENSE IF YOU USE THIS MOD.
+
 # logic-mc
 Logic came to Minecraft.  
 A mod for Minecraft, which adds tech, magic, bosses, and so on.  
